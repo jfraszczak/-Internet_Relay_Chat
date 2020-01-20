@@ -308,7 +308,7 @@ class Interface(QWidget):
 
     def closeEvent(self, event):
         global user
-        user.exitRoom()
+        #user.exitRoom()
         sys.exit()
 
     def buttonPressed(self):
